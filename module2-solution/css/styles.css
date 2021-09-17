@@ -1,6 +1,6 @@
 body  {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	
 }
 
@@ -12,6 +12,7 @@ body  {
 
  .row {
  	width: 100%;
+ 	
  } 
 .row > div {
   
@@ -22,16 +23,15 @@ body  {
 
 div.row {
 	width: 100%;
+	padding: 10px;
 	position: relative;
 	left: 10px;
-	top: 30px;
-
-
-
+	top: 20px;
+	
 }
 h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   text-align: center;
   font-size: 175%;
   
@@ -41,7 +41,6 @@ p {
   border: 1px solid black;
   background-color: gray;
   width: 100%;
- 
   margin-right: auto;
   margin-left: auto;
   color: black;
@@ -62,7 +61,7 @@ div#container3 {
 }
 p#section1 {
   background-color: pink;
-  width: 30%;
+  width: 35%;
   height: 50px;
   position: absolute;
   top: 0px;
@@ -77,7 +76,7 @@ p#section1 {
 }
 p#section2 {
   background-color: salmon;
-  width: 30%;
+  width: 35%;
   height: 50px;
   position: absolute;
   top: 0px;
@@ -92,7 +91,7 @@ p#section2 {
 }
 p#section3 {
   background-color: #00FFFF;
-  width: 30%;
+  width: 35%;
   height: 50px;
   position: absolute;
   top: 0px;
