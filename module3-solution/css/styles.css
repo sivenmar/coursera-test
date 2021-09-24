@@ -9,21 +9,27 @@ body {
 	background-color: salmon;
 	border-radius: 0;
 	border: 0;
+
 }
 
 .navbar-brand {
 	padding-top: 25px;
+
+  
+
 }
 
 .navbar-brand h1 { /* Restaurant name */
 	font-family: 'Lora', serif;
 	color: vanilla;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: .75;
+  margin-left: 20px;
+	line-height: 0.4;
+
 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -41,7 +47,10 @@ body {
 #nav-list a:hover {
   background: #E7E7E7;
 }
-
+li.visible-xs {
+  background-color: gray;
+  border: 1px solid black;
+}
 
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
