@@ -1,6 +1,6 @@
 body {
 	font-size: 16px;
-	color: #fff;
+	color: #F3EEB2;
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -22,7 +22,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
 	font-family: 'Lora', serif;
-	color: vanilla;
+	color: #FFF44F;
 	font-size: 1.8em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -72,36 +72,40 @@ li.visible-xs {
 
  #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-    background-color: yellow;
+    background-color: #F3EEB2;
   }
  
 /* END HEADER */
 
 
-/* HOME PAGE */
+/* MAIN SECTION */
 
 div.col-xs-12 p {
     background-color: gray;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
    
   }
    .col-xs-12 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
     float: left;
     width: 100%;
+    
   }
 
  
-/* END HOME PAGE */
+/* END MAIN SECION */
 
 
 /********** Medium devices only **********/
 @media (min-width: 1200px) {
   .navbar-brand {
-    padding-top: 10px;
+    padding-top: 20px;
     height: 120px;
   }
 
@@ -120,13 +124,27 @@ div.col-xs-12 p {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 3vw;
+    font-size: 4vw;
   }
-  }
+  
 }
 
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+    padding-top: 10px;
+    height: 90px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 20px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+    
+  }
+
 /********** Extra Small devices only **********/
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   
 
    .navbar-brand {
@@ -134,11 +152,14 @@ div.col-xs-12 p {
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    padding-top: 25px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
   }
   
+  div.col-xs-12 p {
+    margin-bottom: 20px;
    
+  }
 
  }
 
