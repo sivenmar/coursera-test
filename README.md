@@ -1,2 +1,3 @@
 # MyHomePage
-Coursera test repository
+My repository
+
