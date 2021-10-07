@@ -1,3 +1,3 @@
-# MyHomePage
+# myHomePage
 My repository
 
