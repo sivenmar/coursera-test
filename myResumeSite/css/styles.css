@@ -117,20 +117,21 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/Footer5.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
 }
 .education p {
   width: 60%;
+  color: white;
 }
 
 
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: #2F3061;
   color: #F7FFF7;
 }
 .contact-list {
