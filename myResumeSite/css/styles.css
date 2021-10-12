@@ -6,6 +6,9 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
+#595B70 - dark violet - almost gray
+#017287 - blue lagoon
+#afdbd3 - Sinbad - light turqoise
 */
 
 
@@ -74,7 +77,7 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: #017287;
   color: #F7FFF7;
 }
 
@@ -89,7 +92,7 @@ header {
 }
 .projects .btn {
   color: #F7FFF7;
-  background: #2F3061;
+  background: #595B70;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -109,7 +112,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #afdbd3;
 }
 
 
@@ -131,7 +134,7 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #2F3061;
+  background: #595B70;
   color: #F7FFF7;
 }
 .contact-list {
